@@ -1,23 +1,21 @@
 # miniPaint
 
-Online image editor lets you create, edit images using HTML5 technologies.
-No need to buy, download, install or have obsolete flash. No ads.
-Key features: layers, filters, HTML5, open source, Photoshop alternative.
+在线图像编辑器允许您使用 HTML5 技术创建、编辑图像。无需购买、下载、安装或拥有过时的闪存。没有广告。主要功能：图层、滤镜、HTML5、开源、Photoshop 替代品。
 
-miniPaint operates directly in the browser. You can create images, paste from the clipboard (ctrl+v) 
-or upload from the computer (using menu or drag & drop). Nothing will be sent to any server. Everything stays in your 
-browser. 
+miniPaint 直接在浏览器中运行。您可以创建图像，从剪贴板粘贴（ctrl + v）或从计算机上传（使用菜单或拖放）。不会向任何服务器发送任何内容。一切都留在您的浏览器中。
+browser.
 
-## URL:
-**https://viliusle.github.io/miniPaint/**
+## URL
 
-## Preview:
+<https://ps.shenzjd.com/>
+
+## Preview
+
 ![miniPaint](https://raw.githubusercontent.com/viliusle/miniPaint/master/images/preview.gif)
 (generated using miniPaint)
 
-**Change log:** [/miniPaint/releases](https://github.com/viliusle/miniPaint/releases)
-
 ## Browser Support
+
 - Chrome
 - Firefox
 - Opera
@@ -26,38 +24,19 @@ browser.
 
 ## Features
 
-- **Files**: open images, directories, URL, data URL, drag and drop, save (PNG, JPG, BMP, WEBP, animated GIF, TIFF, JSON 
-(layers data), print.
-- **Edit**: Undo, cut, copy, paste, selection, paste from clipboard.
-- **Image**: information, EXIF, trim, zoom, resize (Hermite resample, default resize), rotate, flip, 
-color corrections (brightness, contrast, hue, saturation, luminance), auto adjust colors, grid, histogram, negative.
-- **Layers**: multiple layers system, differences, merge, flatten, Transparency support.
-- **Effects**: Black and White, Blur (box, Gaussian, stack, zoom), Bulge/Pinch, Denoise, Desaturate, Dither, Dot Screen, 
-Edge, Emboss, Enrich, Gamma, Grains, GrayScale, Heatmap, JPG Compression, Mosaic, Oil, Sepia, Sharpen, Solarize, 
-Tilt Shift, Vignette, Vibrance, Vintage, Blueprint, Night Vision, Pencil, also Instagram Filters: 1977, Aden, Clarendon, 
-Gingham, Inkwell, Lo-fi, Toaster, Valencia, X-Pro II.
-- **Tools**: pencil, brush, magic wand, erase, fill, color picker, letters, crop, blur, sharpen, desaturate, clone,
- borders, sprites, key-points, color zoom, replace color, restore alpha, content fill.
-- **Help**: keyboard shortcuts, translations.
+- 文件：打开图片、目录、URL、数据 URL、拖放、保存（PNG、JPG、BMP、WEBP、动画 GIF、TIFF、JSON（图层数据）、打印。
+- 图像：信息、EXIF、修剪、缩放、调整大小时（Hermite 重新采样、默认调整大小时）、旋转、翻转、颜色校正（亮度、对比度、色调、饱和度、亮度）、自动调整颜色、网格、直方图、负片。
+- 图层：多层系统、差异、合并、展平、透明度支持。
+- 效果：黑白、模糊（盒子、高斯、堆栈、缩放）、凸起/捏合、降噪、去饱和、抖动、点屏、边缘、浮雕、丰富、伽玛、颗粒、灰度、热图、JPG 压缩、马赛克、油画、棕褐色、锐化、日化、倾斜偏移、晕影、鲜艳、复古、蓝图、夜视、铅笔，还有 Instagram 滤镜：1977、Aden、Clarendon、Gingham、Inkwell、Lo-fi、Toaster、Valencia、X-Pro II。
+- 工具：铅笔、画笔、魔杖、擦除、填充、颜色选择器、字母、裁剪、模糊、锐化、去饱和、克隆、边框、精灵、关键点、颜色缩放、替换颜色、恢复阿尔法、内容填充。
+- 帮助：键盘快捷键、翻译。
 
-## Embed
-To embed this app in the other page, use this HTML code:
+## Embed 嵌入
 
-    <iframe style="width:100%; height:1000px;" id="miniPaint" src="https://viliusle.github.io/miniPaint/" allow="camera"></iframe>
+要将此应用嵌入到另一个页面中，请使用以下 HTML 代码：
 
-## Build instructions
-See [Wiki > Build instructions](https://github.com/viliusle/miniPaint/wiki/Build-instructions)
-
-## Wiki
-See [Wiki](https://github.com/viliusle/miniPaint/wiki)
-
-## Contributors
-<a align="center" href="https://github.com/viliusle/miniPaint/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=viliusle/miniPaint" />
-</a>
+    <iframe style="width:100%; height:1000px;" id="miniPaint" src="https://ps.shenzjd.com/" allow="camera"></iframe>
 
 ## License
-MIT License
 
-## Support
-Please use the GitHub issues for support, features, issues or use mail www.viliusl@gmail.com for contacts.
+MIT License
