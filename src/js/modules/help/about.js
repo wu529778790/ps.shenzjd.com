@@ -20,11 +20,6 @@ class Help_about_class {
         { title: "Name:", html: '<span class="about-name">miniPaint</span>' },
         { title: "Version:", value: VERSION },
         { title: "Description:", value: "Online image editor." },
-        { title: "Author:", value: "ViliusL" },
-        {
-          title: "Email:",
-          html: '<a href="mailto:' + email + '">' + email + "</a>",
-        },
       ],
     };
     this.POP.show(settings);
