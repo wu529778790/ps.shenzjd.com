@@ -2,7 +2,9 @@
 FROM nginx:1.17.10
 
 # 将 dist 目录复制到容器中的工作目录
-COPY dist /usr/share/nginx/html
+COPY dist /usr/share/nginx/html/dist
+COPY images /usr/share/nginx/html/images
+COPY index.html /usr/share/nginx/html/index.html
 
 # 暴露端口
 EXPOSE 80
