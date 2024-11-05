@@ -64,8 +64,9 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           git fetch origin gh-pages
-          git checkout gh-pages
+          git checkout gh-pages || git checkout --orphan gh-pages
           git rm -rf .
+          mkdir dist images
           cp -rf dist/* ./dist/
           cp -rf images/* ./images/
           cp -rf index.html .
