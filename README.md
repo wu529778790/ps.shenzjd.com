@@ -36,7 +36,3 @@ browser.
 要将此应用嵌入到另一个页面中，请使用以下 HTML 代码：
 
     <iframe style="width:100%; height:1000px;" id="miniPaint" src="https://ps.shenzjd.com/" allow="camera"></iframe>
-
-## License
-
-MIT License

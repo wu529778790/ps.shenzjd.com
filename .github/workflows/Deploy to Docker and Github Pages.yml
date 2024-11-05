@@ -66,10 +66,12 @@ jobs:
           git fetch origin gh-pages
           git checkout gh-pages
           git rm -rf .
-          cp -rf dist/* /dist/*
+          cp -rf dist/* ./dist/
+          cp -rf images/* ./images/
           cp -rf index.html .
-          echo 'dist/' >> .gitignore
-          echo 'node_modules/' >> .gitignore
-          git add .
+          echo 'dist' >> .gitignore
+          echo 'images' >> .gitignore
+          echo 'node_modules' >> .gitignore
+          git add ./dist ./images index.html
           git commit -m "Deploy to GitHub Pages"
           git push -f origin gh-pages
